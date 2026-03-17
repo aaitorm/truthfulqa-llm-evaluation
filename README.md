@@ -43,7 +43,7 @@ In the first stage, both models are prompted with the same few-shot setup using 
 
 - **Llama-3.1-8B Base** is prompted with a plain Q/A format
 - **Llama-3.1-8B Instruct** uses the tokenizer chat template
-- The same methodology is applied to both English and Basque data
+- The same methodology is applied to both Spanish and Basque data
 
 The outputs for the full validation set are stored in JSON files for later evaluation.
 
@@ -95,7 +95,7 @@ The dataset includes:
 
 The experiments in this repository focus on:
 
-- **English**
+- **Spanish**
 - **Basque**
 
 ---
@@ -143,7 +143,7 @@ This project explores questions such as:
 - `src/z2_informativeness.py` → automatic informativeness evaluation
 
 ### Data files
-- `data/z1_outputs_full.json` → English outputs
+- `data/z1_outputs_full.json` → Spanish outputs
 - `data/z1_outputs_full_eus.json` → Basque outputs
 
 ---
