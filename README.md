@@ -140,14 +140,18 @@ This project explores questions such as:
 
 >TRUTHFULNESS:
 
-![Metrics](results/truthfulness_comparison_es.png)
-![Metrics](results/truthfulness_comparison_eus.png)
+![Metrics](results/truthfulness_comparison_es.png)  
+
+![Metrics](results/truthfulness_comparison_eus.png)  
+
 
 
 >INFORMATIVENESS:
-![Metrics](results/informativeness_comparison_es.png)
-![Metrics](results/informativeness_comparison_eus.png)
->
+
+![Metrics](results/informativeness_comparison_es.png)  
+
+![Metrics](results/informativeness_comparison_eus.png)  
+
 ### Example Outputs
 
 ![Examples](results/baseVSinstruct_comparison_es.png)
