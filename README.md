@@ -111,29 +111,6 @@ The experiments in this repository focus on:
 - `HiTZ/gemma-2-9b-it-multi-info-judge`
 
 ---
-
-## Key Findings
-
-The experiments were designed to study the effect of instruction tuning on response quality. According to the project report, the instruct-aligned model produces responses that are generally more coherent, useful, and reliable than the base model, while multilingual evaluation reveals additional challenges in Basque. :contentReference[oaicite:4]{index=4}
-
-At a system level, the project shows three important points:
-
-- instruction tuning improves response quality over the base model
-- automatic judges are useful for large-scale comparison
-- manual analysis is necessary to detect evaluator errors and multilingual edge cases
-
----
-
-## Example Research Questions
-
-This project explores questions such as:
-
-- Does instruction tuning improve truthfulness?
-- Does it also improve informativeness?
-- Do judge models align with human judgement?
-- Does performance degrade in multilingual settings such as Basque?
-
----
 ## Results Visualization
 
 ### Quantitative Comparison
@@ -156,6 +133,30 @@ This project explores questions such as:
 
 ![Examples](results/baseVSinstruct_comparison_es.png)
 ![Examples](results/baseVSinstruct_comparison_eus.png)
+
+---
+
+## Key Findings
+
+The experiments were designed to study the effect of instruction tuning on response quality. According to the project report, the instruct-aligned model produces responses that are generally more coherent, useful, and reliable than the base model, while multilingual evaluation reveals additional challenges in Basque. :contentReference[oaicite:4]{index=4}
+
+At a system level, the project shows three important points:
+
+- instruction tuning improves response quality over the base model
+- automatic judges are useful for large-scale comparison
+- manual analysis is necessary to detect evaluator errors and multilingual edge cases
+
+---
+
+## Example Research Questions
+
+This project explores questions such as:
+
+- Does instruction tuning improve truthfulness?
+- Does it also improve informativeness?
+- Do judge models align with human judgement?
+- Does performance degrade in multilingual settings such as Basque?
+
 ---
 
 ## Files
