@@ -134,6 +134,21 @@ This project explores questions such as:
 - Does performance degrade in multilingual settings such as Basque?
 
 ---
+## Results Visualization
+
+### Quantitative Comparison
+
+TRUTHFULNESS:
+![Metrics](results/truthfulness_comparison_es.png)
+![Metrics](results/truthfulness_comparison_eus.png)
+INFORMATIVENESS:
+![Metrics](results/informativeness_comparison_es.png)
+![Metrics](results/informativeness_comparison_eis.png)
+### Example Outputs
+
+![Examples](results/baseVSinstruct_comparison_es.png)
+![Examples](results/baseVSinstruct_comparison_eus.png)
+---
 
 ## Files
 
