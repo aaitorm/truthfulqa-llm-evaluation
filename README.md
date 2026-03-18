@@ -138,12 +138,16 @@ This project explores questions such as:
 
 ### Quantitative Comparison
 
-TRUTHFULNESS:
+>TRUTHFULNESS:
+
 ![Metrics](results/truthfulness_comparison_es.png)
 ![Metrics](results/truthfulness_comparison_eus.png)
-INFORMATIVENESS:
+
+
+>INFORMATIVENESS:
 ![Metrics](results/informativeness_comparison_es.png)
-![Metrics](results/informativeness_comparison_eis.png)
+![Metrics](results/informativeness_comparison_eus.png)
+>
 ### Example Outputs
 
 ![Examples](results/baseVSinstruct_comparison_es.png)
